@@ -12,7 +12,7 @@ command="""CREATE TABLE IF NOT EXISTS movies(m_id INTEGER PRIMARY KEY, name TEXT
 
 cursor.execute(command)
 
-# Insert the data to the TABLE
+# Insert data to the TABLE
 
 cursor.execute("INSERT or IGNORE INTO movies VALUES(1, 'The Lion King' , 'Roger Allers' , 'Matthew Broderick' , 'Moira Kelly' , '1994' )")
 cursor.execute("INSERT or IGNORE INTO movies VALUES(2, 'Lady and the Tramp' , 'Wilfred Jackson' , 'Larry Roberts' , 'Barbara Luddy' , '1955' )")
